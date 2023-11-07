@@ -5,4 +5,4 @@ ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}
 table{border-collapse:collapse;border-spacing:0}
-body{font-size:12px;line-height:12px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Segoe UI',Roboto,Arial,'Malgun Gothic','맑은 고딕',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'}
+input:focus{outline:none}
