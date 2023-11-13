@@ -1,0 +1,5 @@
+.screen-header{display:flex;padding:52px 20px 30px;justify-content:space-between}
+.screen-header__tit{font-weight:bold;font-size:24px}
+.screen-header__ico{display:flex}
+.screen-header__ico li{margin-left:30px}
+.screen-header__link{display:block}
