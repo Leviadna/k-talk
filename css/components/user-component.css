@@ -1,0 +1,6 @@
+.user-component,.user-component__column:first-child{display:flex;width:100%;align-items:center}
+.user-component__photo{width:60px;border-radius:20px}
+.user-component__photo--xl{width:80px;border-radius:30px}
+.user-component__txt{margin-left:12px}
+.user-component__tit{font-weight:600;font-size:18px}
+/* .user-component__subtit{margin-top:10px;font-size:13px;color:rgba(0,0,0,.5)} */
