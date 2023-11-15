@@ -11,6 +11,7 @@
 /* screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/chats.css";
 
 body{font-size:12px;line-height:12px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Segoe UI',Roboto,Arial,'Malgun Gothic','맑은 고딕',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';color:#2e363e}
 .img_g{display:inline-block;width:100%;vertical-align:top}

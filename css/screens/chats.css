@@ -1,0 +1,9 @@
+.chats-screen{margin:30px 15px}
+.chats-component{display:flex;margin-bottom:25px;justify-content:space-between}
+.chats-component__column{display:flex;position:relative;align-items:center}
+.chats-component__txt{margin-left:12px}
+.chats-component__tit{font-weight:600;font-size:18px}
+.chats-component__subtit{margin-top:10px;font-size:12px;opacity:.5}
+.chats-component__info{display:flex;align-items:flex-end;flex-direction:column}
+.chats-component__time{font-size:11px;opacity:.5}
+.chats-component__notify{display:flex;width:18px;height:18px;margin-top:7px;color:#fff;background-color:tomato;align-items:center;justify-content:center;border-radius:50%}
