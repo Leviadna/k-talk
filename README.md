@@ -1,2 +1,2 @@
-# Kokoa Clone
+# K-talk
 
