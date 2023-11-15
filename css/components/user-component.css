@@ -1,6 +1,12 @@
-.user-component,.user-component__column:first-child{display:flex;width:100%;align-items:center}
-.user-component__photo{width:60px;border-radius:20px}
-.user-component__photo--xl{width:80px;border-radius:30px}
-.user-component__txt{margin-left:12px}
+.user-component__column{display:flex;width:100%;align-items:center}
+.user-component__photo{width:50px;border-radius:30%}
+.user-component__photo--xl{width:70px;border-radius:30%}
+.user-component__txt,.channel-component__txt{margin-left:12px}
 .user-component__tit{font-weight:600;font-size:18px}
 /* .user-component__subtit{margin-top:10px;font-size:13px;color:rgba(0,0,0,.5)} */
+
+.channel-component{display:flex;justify-content:space-between}
+.channel-component__column{display:flex;margin-top:20px;align-items:center}
+.channel-component__column:nth-child(2){opacity:.6}
+.channel-component__tit{font-weight:500;font-size:16px}
+.channel-component__number{margin-right:5px}
