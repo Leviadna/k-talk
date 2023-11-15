@@ -1,4 +1,3 @@
-.chats-screen{margin:30px 15px}
 .chats-component{display:flex;margin-bottom:25px;justify-content:space-between}
 .chats-component__column{display:flex;position:relative;align-items:center}
 .chats-component__txt{margin-left:12px}

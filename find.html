@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kokoatalk</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>21:23</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+  <header class="screen-header">
+    <h1 class="screen-header__tit">Find</h1>
+    <ul class="screen-header__ico">
+      <li><a href="#none" class="screen-header__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+      <li>
+        <span class="screen-header__link--notice"></span>
+        <a href="#none" class="screen-header__link"><i class="fa-solid fa-gear fa-xl"></i></a>
+      </li>
+    </ul>
+  </header>
+  <main class="main-screen">
+    <ul class="find-screen__list">
+      <li>
+        <a href="#none" class="find-screen__link">
+          <i class="fa-solid fa-qrcode fa-2xl"></i>
+          <span class="find-screen__link--txt">QR Code</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="find-screen__link">
+          <i class="fa-regular fa-address-book fa-2xl"></i>
+          <span class="find-screen__link--txt">Add by<br>Contacts</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="find-screen__link">
+          <i class="fa-solid fa-id-badge fa-2xl"></i>
+          <span class="find-screen__link--txt">Add by ID</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="find-screen__link">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <span class="find-screen__link--txt">Invite</span>
+        </a>
+      </li>
+    </ul>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <strong>Recommended Friends</strong>
+      </div>
+      <div class="friends-screen__recommended">
+        <span>You have no recommended friends.</span>
+      </div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <strong>Open Chat</strong>
+        <div>
+          <span>Go to Openchat Home</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+      <div class="openchat-screen">
+        <ul class="openchat-screen__list">
+          <li>
+            <a href="#none" class="openchat-screen__link">
+              <div class="openchat-scrren__txt">
+                <em class="openchat-screen__tit">#BTS</em>
+                <span class="openchat-screen__subtit">#BTS#ARMY#FRIENDS</span>
+                <div class="openchat-screen__info">
+                  <div class="openchat-screen__avatar"><img src="../3.png" class="img_g"></div>
+                  <span class="openchat-screen__member">802 members</span>
+                  <span class="openchat-screen__active">Active</span>
+                </div>
+              </div>
+              <div class="openchat-screen__thumb">
+                <img src="../3.png" class="img_g">
+                <span class="openchat-screen__thumb--like">♥ 326</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#none" class="openchat-screen__link">
+              <div class="openchat-scrren__txt">
+                <em class="openchat-screen__tit">#BTS</em>
+                <span class="openchat-screen__subtit">#BTS#ARMY#FRIENDS</span>
+                <div class="openchat-screen__info">
+                  <div class="openchat-screen__avatar"><img src="../3.png" class="img_g"></div>
+                  <span class="openchat-screen__member">802 members</span>
+                  <span class="openchat-screen__active">Active</span>
+                </div>
+              </div>
+              <div class="openchat-screen__thumb">
+                <img src="../3.png" class="img_g">
+                <span class="openchat-screen__thumb--like">♥ 326</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <nav class="nav-wrap">
+    <ul class="nav-wrap__list">
+      <li><a href="./friends.html" class="nav-wrap__link"><i class="fa-regular fa-user fa-xl"></i></a></li>
+      <li>
+        <a href="./chats.html" class="nav-wrap__link"><i class="fa-regular fa-comment fa-xl"></i>
+        </a>
+      </li>
+      <li><a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+      <li>
+        <a href="#none" class="nav-wrap__link">
+          <span class="nav-wrap__option"></span>
+          <i class="fas fa-ellipsis-h fa-xl"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</html>
