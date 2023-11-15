@@ -4,9 +4,3 @@
 .user-component__txt,.channel-component__txt{margin-left:12px}
 .user-component__tit{font-weight:600;font-size:18px}
 /* .user-component__subtit{margin-top:10px;font-size:13px;color:rgba(0,0,0,.5)} */
-
-.channel-component{display:flex;justify-content:space-between}
-.channel-component__column{display:flex;margin-top:20px;align-items:center}
-.channel-component__column:nth-child(2){opacity:.6}
-.channel-component__tit{font-weight:500;font-size:16px}
-.channel-component__number{margin-right:5px}

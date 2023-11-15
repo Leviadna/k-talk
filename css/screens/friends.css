@@ -4,5 +4,11 @@
 
 .friends-screen{padding:0px var(--horizontal-space)}
 .friends-screen__channel{margin-top:20px;padding-top:15px;border-top:1px solid rgba(0,0,0,.1)}
-.friends-screen__channel-header{display:flex;justify-content:space-between;opacity:.6}
+.friends-screen__channel-header{display:flex;margin-bottom:25px;justify-content:space-between;opacity:.6}
 .friends-screen__channel .fa-solid.fa-angle-up{opacity:.6}
+
+.channel-component{display:flex;justify-content:space-between}
+.channel-component__column{display:flex;margin-bottom:15px;align-items:center}
+.channel-component__column:nth-child(2){opacity:.6}
+.channel-component__tit{font-weight:500;font-size:16px}
+.channel-component__number{margin-right:5px}
