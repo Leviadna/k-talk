@@ -1,0 +1,7 @@
+.suggestions-screen{margin-top:20px;border-top:1px solid rgba(0,0,0,.1)}
+.suggestions-screen__tit{padding-top:25px;font-weight:bold}
+.suggestions-screen__list{display:flex}
+.suggestions-screen__list li{display:flex;width:25%;padding-top:25px;justify-content:center}
+.suggestions-screen__link{display:block;width:50px}
+.suggestions-screen__link .thumb_g{overflow:hidden;border-radius:5px}
+.suggestions-screen__txt{display:flex;margin:10px 0;color:#818181;text-align:center;justify-content:center;white-space:nowrap}

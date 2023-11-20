@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kokoatalk</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>21:23</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+  <header class="screen-header">
+    <a href="./friends.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a>
+    <h1 class="screen-header__tit">Settings</h1>
+    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+  </header>
+  <main class="main-screen">
+    <ul class="settings-option__list">
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-solid fa-bullhorn fa-xl"></i>
+          <span class="settings-option__link--txt">Notices</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-solid fa-flask fa-xl"></i>
+          <span class="settings-option__link--txt">Kakao Lab</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <div class="settings-option__link--box">
+            <i class="fa-solid fa-circle-info fa-xl"></i>
+            <span class="settings-option__link--txt">Version</span>
+          </div>
+          <span class="settings-option__link--info">Latest Version</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-solid fa-lock fa-xl"></i>
+          <span class="settings-option__link--txt">Privacy</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-regular fa-bell fa-xl"></i>
+          <span class="settings-option__link--txt">Notifications</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-regular fa-user fa-xl"></i>
+          <span class="settings-option__link--txt">Friends</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-regular fa-comment fa-xl"></i>
+          <span class="settings-option__link--txt">Chats</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-regular fa-sun fa-xl"></i>
+          <span class="settings-option__link--txt">Display</span>
+          <span class="settings-option__link--new">N</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <div class="settings-option__link--box">
+            <i class="fa-solid fa-brush fa-xl"></i>
+            <span class="settings-option__link--txt">Themes</span>
+          </div>
+          <span class="settings-option__link--new">N</span>
+          <span class="settings-option__link--info">Default theme</span>
+        </a>
+      </li>
+      <li>
+        <a href="#none" class="settings-option__link">
+          <i class="fa-solid fa-phone fa-xl"></i>
+          <span class="settings-option__link--txt">Call</span>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <nav class="nav-wrap">
+    <ul class="nav-wrap__list">
+      <li><a href="./friends.html" class="nav-wrap__link"><i class="fa-regular fa-user fa-xl"></i></a></li>
+      <li><a href="./chats.html" class="nav-wrap__link"><i class="fa-regular fa-comment fa-xl"></i></a></li>
+      <li><a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+      <li>
+        <a href="./more.html" class="nav-wrap__link">
+          <span class="nav-wrap__option"></span>
+          <i class="fa-solid fa-ellipsis fa-xl"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</html>

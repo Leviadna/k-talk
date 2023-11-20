@@ -1,8 +1,3 @@
-.find-screen__list{display:flex;align-items:baseline}
-.find-screen__list li{display:flex;width:25%;height:100px;align-items:center;justify-content:center}
-.find-screen__link{display:flex;text-align:center;flex-direction:column}
-.find-screen__link--txt{margin-top:40px;font-weight:500;}
-
 .friends-screen__recommended{display:flex;height:180px;font-size:14px;align-items:center;justify-content:center;opacity:.5}
 
 .openchat-screen{padding-top:15px}

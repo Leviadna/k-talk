@@ -1,0 +1,5 @@
+.menu-screen__list{display:flex;align-items:center;flex-wrap:wrap}
+.menu-screen__list li{display:flex;position:relative;width:25%;height:100px;align-items:center;justify-content:center}
+.menu-screen__link{display:flex;text-align:center;flex-direction:column}
+.menu-screen__link--txt{margin-top:40px;font-weight:500;}
+.menu-screen__option{display:block;position:absolute;top:0px;right:25px;width:4px;height:4px;background-color:tomato;border-radius:2px}
