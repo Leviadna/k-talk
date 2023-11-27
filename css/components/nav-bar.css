@@ -1,4 +1,4 @@
-.nav-wrap{position:fixed;bottom:0;width:100%;padding:20px 50px;border-top:1px solid rgba(0,0,0,.1);background-color:#f9f9fa;box-sizing:border-box}
+.nav-wrap{position:fixed;bottom:0;width:100%;max-width:500px;padding:20px 50px;border-top:1px solid rgba(0,0,0,.1);background-color:#f9f9fa;box-sizing:border-box}
 .nav-wrap__list{display:flex;justify-content:space-between}
 .nav-wrap__link{position:relative}
 .nav-wrap__notification{display:flex;position:absolute;left:8px;bottom:5px;width:18px;height:18px;font-weight:600;color:#fff;background-color:tomato;border-radius:9px;align-items:center;justify-content:center}

@@ -7,8 +7,8 @@
 .friends-screen__channel-header{display:flex;margin-bottom:25px;justify-content:space-between;opacity:.6}
 .friends-screen__channel .fa-solid.fa-angle-up{opacity:.6}
 
-.channel-component{display:flex;justify-content:space-between}
-.channel-component__column{display:flex;margin-bottom:15px;align-items:center}
+.channel-component{display:flex;margin-bottom:15px;justify-content:space-between}
+.channel-component__column{display:flex;align-items:center}
 .channel-component__column:nth-child(2){opacity:.6}
 .channel-component__txt{margin-left:12px}
 .channel-component__tit{font-weight:500;font-size:16px}

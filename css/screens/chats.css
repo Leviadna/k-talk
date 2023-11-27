@@ -1,4 +1,4 @@
-.chats-component{display:flex;margin-bottom:25px;justify-content:space-between}
+.chats-component{display:flex;padding:12px 0;justify-content:space-between}
 .chats-component__column{display:flex;position:relative;align-items:center}
 .chats-component__txt{margin-left:12px}
 .chats-component__tit{font-weight:600;font-size:18px}

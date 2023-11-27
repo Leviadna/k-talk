@@ -1,4 +1,7 @@
 .screen-header{display:flex;margin-top:27px;padding:var(--horizontal-space);align-items:center;justify-content:space-between}
+.screen-header__column{width:33%}
+.screen-header__column:nth-child(2){display:flex;justify-content:center}
+.screen-header__column:last-child{display:flex;align-items:center;justify-content:flex-end}
 .screen-header__tit{font-weight:bold;font-size:24px}
 .screen-header__ico{display:flex}
 .screen-header__ico li{margin-left:30px;position:relative}
