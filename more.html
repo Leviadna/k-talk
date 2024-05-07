@@ -26,83 +26,97 @@
   <header class="screen-header">
     <h1 class="screen-header__tit">More</h1>
     <ul class="screen-header__ico">
-      <li><a href="#none" class="screen-header__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
-      <li><a href="#none" class="screen-header__link"><i class="fa-solid fa-music fa-xl"></i></a></li>
-      <li><a href="./settings.html" class="screen-header__link"><i class="fa-solid fa-gear fa-xl"></i></a></li>
+      <li>
+        <span class="screen_out">Search</span>
+        <a href="#none" class="screen-header__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">Music</span>
+        <a href="#none" class="screen-header__link"><i class="fa-solid fa-music fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">Setting</span>
+        <a href="./settings.html" class="screen-header__link"><i class="fa-solid fa-gear fa-xl"></i></a>
+      </li>
     </ul>
   </header>
   <main class="friends-screen">
     <div class="user-component">
       <div class="user-component__column">
+        <strong class="ir_pm">My Profile</strong>
         <img src="./img/avatar.png" class="user-component__photo user-component__photo--xl">
         <div class="user-component__txt">
+          <em class="screen_out">My Name</em>
           <h3 class="user-component__tit">Messi</h3>
-          <h4 class="user-component__subtit">+1 787-493-4219</h4>
-          <i class="fa-solid fa-circle-exclamation" style="color: #c64115;"></i>
+          <h4 class="user-component__subtit">
+            <span class="screen_out">My Phone Number</span>
+            <span class="user-component__subtit--number">+1 787-493-4219</span>
+            <i class="fa-solid fa-circle-exclamation" style="color: #c64115;"></i>
+          </h4>
         </div>
       </div>
       <div class="user-component__column">
         <i class="fa-regular fa-message fa-2xl"></i>
       </div>
     </div>
-    <ul class="menu-screen__list">
+    <ul class="ico-row">
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-regular fa-calendar fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-regular fa-calendar fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Calendar</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-regular fa-hard-drive fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-regular fa-hard-drive fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Talk Drive</span>
-          <span class="menu-screen__option"></span>
+          <!-- <span class="menu-screen__option"></span> -->
         </a>
       </li>
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-regular fa-face-smile fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-regular fa-face-smile fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Emoticons</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-solid fa-brush fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-solid fa-brush fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Themes</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-solid fa-code-branch fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-solid fa-code-branch fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Account</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="menu-screen__link">
-          <i class="fa-regular fa-comments fa-2xl"></i>
+        <a href="#none">
+          <span><i class="fa-regular fa-comments fa-2xl"></i></span>
           <span class="menu-screen__link--txt">Openchat</span>
         </a>
       </li>
     </ul>
     <div class="suggestions-screen">
       <h3 class="suggestions-screen__tit">Suggestions</h3>
-      <ul class="suggestions-screen__list">
+      <ul class="ico-row">
         <li>
-          <a href="#none" class="suggestions-screen__link">
-            <div class="wrap_thumb"><img src="./img/kakao_story.png" class="img_g"></div>
-            <span class="suggestions-screen__txt">Kakao Story</span>
+          <a href="#none">
+            <span class="wrap_thumb"><img src="./img/kakao_story.png" class="img_g"></span>
+            <span class="txt_gray">Kakao Story</span>
           </a>
         </li>
         <li>
-          <a href="#none" class="suggestions-screen__link">
-            <div class="wrap_thumb"><img src="./img/kakao_friends.png" class="img_g"></div>
-            <span class="suggestions-screen__txt">Kakao Friends</span>
+          <a href="#none">
+            <span class="wrap_thumb"><img src="./img/kakao_friends.png" class="img_g"></span>
+            <span class="txt_gray">Kakao Friends</span>
           </a>
         </li>
         <li>
-          <a href="#none" class="suggestions-screen__link">
-            <div class="wrap_thumb"><img src="./img/friends_gem.png" class="img_g"></div>
-            <span class="suggestions-screen__txt">Friends Gem</span>
+          <a href="#none">
+            <span class="wrap_thumb"><img src="./img/friends_gem.png" class="img_g"></span>
+            <span class="txt_gray">Friends Gem</span>
           </a>
         </li>
         <li></li>
@@ -111,16 +125,26 @@
   </main>
   <nav class="nav-wrap">
     <ul class="nav-wrap__list">
-      <li><a href="./friends.html" class="nav-wrap__link"><i class="fa-regular fa-user fa-xl"></i></a></li>
       <li>
+        <span class="screen_out">Friends List</span>
+        <a href="./friends.html" class="nav-wrap__link"><i class="fa-regular fa-user fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">Chatting List</span>
         <a href="./chats.html" class="nav-wrap__link">
-          <span class="nav-wrap__notification">1</span>
+          <span class="screen_out">Got Message</span>
+          <span class="nav-wrap__notification badge">1</span>
           <i class="fa-regular fa-comment fa-xl"></i>
         </a>
       </li>
-      <li><a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
       <li>
+        <span class="screen_out">Social List</span>
+        <a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">More Option</span>
         <a href="./more.html" class="nav-wrap__link">
+          <span class="screen_out">New Function</span>
           <span class="nav-wrap__option"></span>
           <i class="fas fa-ellipsis-h fa-xl"></i>
         </a>

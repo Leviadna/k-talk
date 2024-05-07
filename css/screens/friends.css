@@ -1,15 +1,15 @@
-.friends-display__link{display:flex;margin-bottom:10px;padding:15px 0;font-weight:500;font-size:13px;background-color:#fafafa;align-items:center;justify-content:center}
+.friends-display__link{display:flex;align-items:center;justify-content:center;margin-bottom:10px;padding:15px 0;font-weight:normal;font-size:13px;background-color:#fafafa}
 .friends-display__link .fa-solid.fa-circle-info{margin-right:5px;opacity:.2}
 .friends-display__link .fa-solid.fa-chevron-right{margin-left:8px;opacity:.2}
 
 .friends-screen{padding:0px var(--horizontal-space)}
 .friends-screen__channel{padding-top:15px;border-top:1px solid rgba(0,0,0,.1)}
-.friends-screen__channel-header{display:flex;margin-bottom:25px;justify-content:space-between;opacity:.6}
+.friends-screen__channel-header{display:flex;justify-content:space-between;margin-bottom:25px;opacity:.6}
 .friends-screen__channel .fa-solid.fa-angle-up{opacity:.6}
 
-.channel-component{display:flex;margin-bottom:15px;justify-content:space-between}
+.channel-component{display:flex;justify-content:space-between;margin-bottom:15px}
 .channel-component__column{display:flex;align-items:center}
 .channel-component__column:nth-child(2){opacity:.6}
 .channel-component__txt{margin-left:12px}
-.channel-component__tit{font-weight:500;font-size:16px}
+.channel-component__tit{font-weight:normal;font-size:16px}
 .channel-component__number{margin-right:5px}

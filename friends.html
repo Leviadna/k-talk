@@ -26,9 +26,18 @@
   <header class="screen-header">
     <h1 class="screen-header__tit">Friends</h1>
     <ul class="screen-header__ico">
-      <li><a href="#none" class="screen-header__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
-      <li><a href="#none" class="screen-header__link"><i class="fa-solid fa-music fa-xl"></i></a></li>
-      <li><a href="./settings.html" class="screen-header__link"><i class="fa-solid fa-gear fa-xl"></i></a></li>
+      <li>
+        <span class="screen_out">친구 검색</span>
+        <a href="#none" class="screen-header__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">노래 검색</span>
+        <a href="#none" class="screen-header__link"><i class="fa-solid fa-music fa-xl"></i></a>
+      </li>
+      <li>
+        <a href="./settings.html" class="screen-header__link"><i class="fa-solid fa-gear fa-xl"></i></a>
+        <span class="screen_out">설정</span>
+      </li>
     </ul>
   </header>
   <a class="friends-display__link">
@@ -39,8 +48,8 @@
       <div class="user-component__column">
         <img src="./img/avatar.png" class="user-component__photo user-component__photo--xl">
         <div class="user-component__txt">
-          <h3 class="user-component__tit">Messi</h3>
-          <!-- <h4 class="user-component__subtit">바쁘고 싶다</h4> -->
+          <h3 class="user-component__mytit">Messi</h3>
+          <h4 class="user-component__subtit">바쁘고 싶다</h4>
         </div>
       </div>
     </div>
@@ -53,10 +62,12 @@
         <div class="channel-component__column">
           <img src="./img/avatar.png" class="user-component__photo">
           <div class="channel-component__txt">
+            <em class="screen_out">추천 채널</em>
             <h3 class="channel-component__tit">Channel</h3>
           </div>
         </div>
         <div class="channel-component__column">
+          <span class="screen_out">추천 채널 수</span>
           <span class="channel-component__number">2</span>
           <i class="fa-solid fa-chevron-right fa-xs"></i>
         </div>
@@ -65,15 +76,24 @@
   </main>
   <nav class="nav-wrap">
     <ul class="nav-wrap__list">
-      <li><a href="./friends.html" class="nav-wrap__link"><i class="fa-solid fa-user fa-xl"></i></a></li>
       <li>
+        <span class="screen_out">친구 목록</span>
+        <a href="./friends.html" class="nav-wrap__link"><i class="fa-solid fa-user fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">채팅 목록</span>
         <a href="./chats.html" class="nav-wrap__link">
-          <span class="nav-wrap__notification">1</span>
+          <span class="screen_out">새 메시지</span>
+          <span class="nav-wrap__notification badge">1</span>
           <i class="fa-regular fa-comment fa-xl"></i>
         </a>
       </li>
-      <li><a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
       <li>
+        <span class="screen_out">오픈 채팅</span>
+        <a href="./find.html" class="nav-wrap__link"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+      </li>
+      <li>
+        <span class="screen_out">더보기</span>
         <a href="./more.html" class="nav-wrap__link">
           <span class="nav-wrap__option"></span>
           <i class="fas fa-ellipsis-h fa-xl"></i>

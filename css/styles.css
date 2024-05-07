@@ -7,12 +7,12 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
-@import "./components/menu-screen.css";
+@import "./components/ico-row.css";
+@import "./components/badge.css";
 
 /* screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
-@import "./screens/chats.css";
 @import "./screens/find.css";
 @import "./screens/settings.css";
 @import "./screens/more.css";
