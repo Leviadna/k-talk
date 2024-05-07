@@ -3,4 +3,4 @@
 .ico-row li a{display:flex;align-items:center;flex-direction:column}
 .ico-row li span:first-child{display:inline-block;position:relative;width:3rem;height:3rem}
 .ico-row li span i{position:absolute;top:50%;left:50%;transform:translateX(-50%)}
-.ico-row li span:last-child{padding-top:15px}
+.ico-row li span:last-child{padding:15px 0}

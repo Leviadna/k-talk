@@ -1,4 +1,7 @@
-.friends-screen__recommended{display:flex;align-items:center;justify-content:center;height:180px;font-size:14px;opacity:.5}
+.screen-channel__recommended{display:flex;align-items:center;justify-content:center;height:180px;font-size:14px;opacity:.5}
+.screen-channel__header a{position:relative}
+.screen-channel__header a span{margin-right:15px}
+.screen-channel__header .fa-solid.fa-chevron-right.fa-xs{position:absolute;top:50%;right:0}
 
 .open-chat{padding:15px 0 40px}
 .open-chat__list li{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid rgba(0,0,0,.1);}
