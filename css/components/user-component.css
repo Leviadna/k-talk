@@ -1,7 +1,7 @@
 .user-component{display:flex;justify-content:space-between;padding:12px 0}
 .user-component__column{display:flex;align-items:center;position:relative}
 .user-component__photo{width:50px;border-radius:30%}
-.user-component__photo--xl{width:70px;border-radius:30%}
+.xl{width:70px;border-radius:30%}
 .user-component__txt{margin-left:12px}
 .user-component__mytit{font-weight:600;font-size:18px}
 .user-component__tit{font-weight:500;font-size:16px}

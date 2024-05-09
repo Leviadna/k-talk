@@ -1,6 +1,7 @@
 .ico-row{display:flex;flex-wrap:wrap}
 .ico-row li{width:25%;padding:20px 0}
-.ico-row li a{display:flex;align-items:center;flex-direction:column}
+.ico-row li a{display:flex;align-items:center;flex-direction:column;position:relative}
 .ico-row li span:first-child{display:inline-block;position:relative;width:3rem;height:3rem}
 .ico-row li span i{position:absolute;top:50%;left:50%;transform:translateX(-50%)}
 .ico-row li span:last-child{padding:15px 0}
+.ico-row__notice{position:absolute;top:4px;right:30%;width:4px;height:4px;background-color:#ff6347;border-radius:2px}

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="chat-screen">
   <div class="status-bar">
     <div class="status-bar__column">
       <span>No Service</span>
@@ -23,12 +23,48 @@
       <i class="fa-solid fa-bolt"></i>
     </div>
   </div>
-  <header class="screen-header">
-    <a href="./chats.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a>
-    <h1 class="screen-header__tit">Messi.4418</h1>
-    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+  <header class="chat-header">
+    <div class="chat-header__column">
+      <a href="./chats.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a>
+    </div>
+    <div class="chat-header__column">
+      <h1 class="chat-header__tit">메시</h1>
+    </div>
+    <div class="chat-header__column">
+      <a href="#none"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+      <a href="#none"><i class="fa-solid fa-bars fa-xl"></i></a>
+    </div>
   </header>
-  <main class="main-screen">
-    
+  <main class="chat-container">
+    <div class="chat__timestamp">2024년 5월 9일</div>
+    <div class="msg-row">
+      <img src="./img/avatar2.png" class="img_g" alt="">
+      <div class="msg-row__content">
+        <span class="msg__author">메시</span>
+        <div class="msg__info">
+          <span class="msg__write">야</span>
+          <span class="msg__time">22:23</span>
+        </div>
+      </div>
+    </div>
+    <div class="msg-row msg-row--own">
+      <div class="msg-row__content">
+        <div class="msg__info">
+          <span class="msg__write">호</span>
+          <span class="msg__time">22:24</span>
+        </div>
+      </div>
+    </div>
+    <form class="reply-form">
+      <div class="reply__column">
+        <button type="button" class="reply__btn--more"><i class="far fa-plus-square fa-xl"></i></button>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="">
+        <button type="button" class="reply__btn--icon"><i class="far fa-smile-wink fa-2xl"></i></button>
+        <button type="button" class="reply__btn--send"><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
   </main>
+</body>
 </html>
